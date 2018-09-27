@@ -21,8 +21,8 @@ void setup() {
   pinMode(LED_PIN, OUTPUT);
 }
 
-float analogPins[] = {A0, A1, A2, A3, A4, A5, A6, A7};
-int numAnalogPins = 8;
+float analogPins[] = {A0, A1, A2, A3, A4, A5};
+int numAnalogPins = 6;
 int thresholds[8];
 
 // This value can be tuned depending on sensor installation.
